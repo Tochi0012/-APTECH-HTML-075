@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signing.php" method="post" enctype="multipart/form-data">
+        <input  type="text" id="username" placeholder="Username" minlength="4" maxlength="16" required>
+        <br>
+        <input type="password" id="password" placeholder="password" minlength="8" maxlength="16" required>
+
+        <br>
+        <input type="tel" id="phone" placeholder="Phone number"><br> 
+        <input type="email" id="email" placeholder="e.mail" required><br>
+        <input type="date" id="birthday" placeholder="Birthday"> <br>
+        <input type="number" id="quantity" placeholder="no of users" min="0" max="100" value="0"><br>
+        <label>Male</label> 
+        <input type="radio" id="Male" value="Male" name="title">
+        <label>Female</label>
+        <input type="radio" id="Female" value="Female" name="title"><br>
+        <label for="status">status</label>
+        <select id="status">
+<option value="Single">Single</option>
+<option value="Taken">Taken</option>
+<option value="in process">Fixing the ship</option>
+        </select><br>
+
+         <input type="submit" id="username">
+         <input type="reset" id="username">
+         <p>Would you like to subscribe to our news letter?</h6> <br>
+         <label for="subscribe"  >Subscribe</label>
+         <input type="checkbox" id="subscribe" ><br>
+        <!-- <textarea id="comments" rows="3" cols="25"></textarea> --> 
+         
+    </form> 
+</body>
+</html>

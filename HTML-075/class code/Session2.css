@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    
+}
+.sep{
+    color: brown;
+}
+#sec{
+    color: blueviolet;
+}
+header{
+    background-color: silver;
+    
+}
+section,div{
+    background-color: rgb(144, 255, 242);
+    height: 400px;
+    width: 50%;
+    display: flex;
+  
+   
+}
+div{
+    margin-right: 300px;
+}
+section{
+    margin-left: 300px;
+    margin-top: 100px;
+}

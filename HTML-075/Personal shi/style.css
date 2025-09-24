@@ -1,0 +1,25 @@
+header{
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;
+            color: black;
+            display: flex;
+           
+        }
+body{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    padding: 10%;
+    margin: 10px;
+   
+}
+img{
+    padding: 0.3%;
+   
+   
+}
