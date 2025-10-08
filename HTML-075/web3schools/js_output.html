@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first web page</h1>
+    <p id="demo"></p>
+    <p id="dem"> first paragraph</p>
+    <button onclick="window.print()">print this Page1</button>
+    <script>
+      document.getElementById("demo").innerHTML="<h3>my first lesson</h3>"; //innerHTML
+      document.getElementById("dem").innerText="yo, what's good gng";    //innerTEXT
+      //using document.write
+      document.write(5+6);//outputs 11
+
+      //Using window.alert()...You can use an alert box to display data:
+      // would have been window.alert but specifying window is optional is all variuables belong to windows by default in js
+      alert(5+9);
+//using console.log
+ console.log(9+9);
+/*JavaScript Print
+JavaScript does not have any print object or print methods.
+You cannot access output devices from JavaScript.
+The only exception is that you can call the window.print() method
+ in the browser to print the content of the current window. */
+
+    </script>
+    
+</body>
+</html>

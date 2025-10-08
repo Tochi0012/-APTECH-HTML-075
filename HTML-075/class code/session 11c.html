@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape sequences in Javascript</title>
+    <style>
+        pre{
+            background-color: #f0f0f0;
+
+            padding: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h2>Escape Sequences Demo</h2>
+    <pre id="output "></pre>
+
+    <script>
+        //Define strings using escape sequences
+        let newline = "Line1\nLine2";           //\n-new line
+
+        let tab ="Column1\tColumn2";             //\t-Horizontal tab
+
+        let backslash ="This is a backslash: \\"; //\\-backslash
+        let singleQuote= 'it\'s a nice day' ;      //\'- double quote
+        let CarriageReturn="Hello\rWorld";         // \r-carriage return(Overwrites"Hello")
+
+        let backspace = "ABC\bD";                  //\b-backspace(removes previous char, often not visible)
+
+        let formFeed= "Page1\fPage2";               //\f-form feed(rarely used)
+
+        let unicodeChar= "Unicodse heart; \u2665";   //\u-Unicode Character
+
+        let hexxChar = "Hex A: \x41";                // \x- Hexadecimal character
+
+
+        //Display all outputs in <pre>
+
+            let output ="";
+            output +="New Line (\\n):\n" + newline + "\n\n"
+            output += "Tab (\\t):\n"+ tab + "\n\n";
+            output += "Backslash(\\\):\n" +backslash + "\n\n";
+            output += "Single Quote (\\'):'"
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diaplay Information Method</title>
+</head>
+<body>
+    <h1>javaScript Diaplay Method </h1>
+
+    <!--Elements for display information-->
+    <div id="output1"></div>
+    <div id="output2"></div>
+
+    <script>
+        //Method 1:console.log(develer tools)
+        console.log("This message appers in the console.");
+
+        //Method 2:alert(popup dialog)
+        alert("This is an alert box!");
+
+        //Method 3:document.write(write diectly to the document)
+        document.write("<p> This is wriiten using document.write()<p>");
+
+            //Method 4:innerHTML(inserting into a specific element)
+            document.getElementById("output1").innerHTML = "Displayed using innerHtml.";
+
+            //Method 5:textContet(sets only text without HTML tags)
+            document.getElementById("output2").textContent="Display using textContent";
+    </script>
+</body>
+</html>
